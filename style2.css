@@ -1,0 +1,49 @@
+
+
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Caveat Regular'), local('Caveat-Regular'), url(fuentes/Caveat-Regular.ttf) format('ttf');
+
+}
+
+#presentacion {
+    font-size: 48pt;
+    font-family: 'Caveat', cursive;
+    color:#6bf0e5;
+    text-align: center;
+    margin: 0px;
+    text-shadow: -2px -2px grey;
+}
+
+body {
+ background-color: beige;
+ margin: 0;
+}
+
+#imgPortada {
+    /*
+    border:40px;
+    border-color: black;
+    border-style: double;
+    */
+    filter: grayscale(100%); 
+    display: block;
+    width: 728.453px;
+    height: 409.750px;
+    transform: rotate(15deg);
+    
+}
+
+div {
+    background-image: url(img/necochea.jpg) ;
+    align-self:
+    width: 800;
+    height:500 ;
+    
+
+  }
+    
+
+
