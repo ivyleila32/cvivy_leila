@@ -8,42 +8,188 @@
 
 }
 
-#presentacion {
+#home {
+    background-image: url(img/necochea.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+h1 {
     font-size: 48pt;
     font-family: 'Caveat', cursive;
-    color:#6bf0e5;
+    color:#131414a4;
     text-align: center;
     margin: 0px;
     text-shadow: -2px -2px grey;
 }
 
+h2 {
+font-size: 22pt;
+font-family: cursive;
+color: rgb(11, 158, 114);
+text-align: left;
+
+}
+
 body {
- background-color: beige;
+ background-color:black;
  margin: 0;
 }
 
-#imgPortada {
-    /*
-    border:40px;
-    border-color: black;
-    border-style: double;
-    */
-    filter: grayscale(100%); 
-    display: block;
-    width: 728.453px;
-    height: 409.750px;
-    transform: rotate(15deg);
+    
+
+section {
+    width:  100%;
+    min-height: 500px;
+    background-color: rgb(68, 61, 61);
+    display: inline-block;
+}
+
+h3 {
+    font-size: 22pt;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+
+}
+
+#navigation {
+    height: 50px;
+    text-align: center;
     
 }
 
-div {
-    background-image: url(img/necochea.jpg) ;
-    align-self:
-    width: 800;
-    height:500 ;
-    
 
-  }
+ul.nav-items li {
+    display: inline;
+    font-family: fantasy;
+    size: 22pt;
+    color: gray;
+}
+
+ul.nav-items a {
+    color: gray;
+    text-decoration: none;
+}
+
+ul.nav-items a:visited {
+    color: rgb(214, 214, 214);
+}
+#presentacion{
+   background: rgb(73, 70, 70);
+}
+#educacion {
+    background: whitesmoke;
+}
+#habilidades{
+   background: whitesmoke;
+}
+#contacto{
+    background: rgb(73, 70, 70);
+}
+
+div.habilidades {
+    margin: 0px 50px;
+}
+div.habilidades div {
+    width: 70%;
+    background-color:whitesmoke;
     
+}
+   
+div.habilidades div div.barra {
+    height: 35px;
+    color: ghostwhite;
+}
+
+#office div.barra div {
+    width: 30%;
+    background-color:grey;
+}
+
+#corel div.barra div {
+    width: 85%;
+    background-color:grey;
+}
+
+
+#mysql div.barra div {
+    width: 50%;
+    background-color:grey;
+}
+
+#java div.barra div {
+    width: 50%;
+    background-color:grey;
+}
+div {
+    font-family: cursive;
+    size: 18pt;
+    color: black;
+} 
+
+div.idiomas {
+    margin: 0px 50px;
+}
+div.idiomas div {
+    width: 70%;
+    background-color:whitesmoke;
+    
+}
+   
+div.idiomas div div.barra {
+    height: 35px;
+    color: ghostwhite;
+}
+
+#ingles div.barra div {
+    width: 30%;
+    background-color:grey;
+}
+
+#italiano div.barra div {
+    width: 85%;
+    background-color:grey;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+
+li{
+    padding: 1%;
+}
+
+.lista_contacto{
+    padding: 0;
+}
+
+.lista_contacto li div{
+    width: 30%;
+}
+
+.email input{
+    width: 60%;
+}
+
+.mensaje input{
+    width: 60%;
+    height: 30%;
+}
+
+.submit{
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
